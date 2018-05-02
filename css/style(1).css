@@ -1,0 +1,119 @@
+.jumbo-img
+{
+  background-image: url("https://images.pexels.com/photos/164338/pexels-photo-164338.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#site-name-header
+{
+  margin-bottom: -1px;
+  border-style: none;
+  text-transform: uppercase;
+  text-size: 3rem;
+  width: 100%;
+}
+#site-name-header a
+{
+  text-decoration: none;
+  color: white;
+}
+#site-name-header h1
+{
+  font-weight: bold;
+  color: white;
+  font-family: Raleway;
+  background-color: rgba(0,0,0,.5);
+  padding: 0.5em;
+  overflow: hidden;
+  font-size: 35pt;
+}
+#navigation-buttons
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #4a6d7c;
+}
+#navigation-buttons li
+{
+  
+  display: inline;
+  float: left;
+  border-right:
+}
+#navigation-buttons li a
+{
+  display: block;
+  padding: 14px 16px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+#navigation-buttons li a:hover
+{
+  background-color: #6599FF;
+}
+.active
+{
+  background-color: #68b684 ;
+}
+.content 
+{
+  padding: 16px;
+}
+.sticky 
+{
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+.sticky + .content 
+{
+  padding-top: 60px;
+}
+#call-today
+{
+  float: right;
+  font:
+  top: 0;
+  color:white;
+  text-weight: 900;
+  margin-top: 1.1%;
+  margin-right: 5%;
+}
+#call-today a
+{
+  text-decoration: none;
+  color: white;
+}
+#about-header h4
+{
+  color: #094d92;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 2%;
+  border-bottom: 2px solid black;
+  margin-right: 15%;
+  margin-left:  25%;
+}
+#about-body p
+{
+  margin-left: 9%;
+  padding-top: 10px;  
+  font-size: 14pt;
+}
+#image-joe
+{
+  width: 60%;
+  margin-left: 25%;
+  margin-top: 5%;
+}
+#image-joe-text
+{
+  text-align: center;
+}
+#image-joe-body p
+{
+  font-size: 15pt;
+}
